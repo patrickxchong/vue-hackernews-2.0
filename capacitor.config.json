@@ -1,0 +1,13 @@
+{
+  "appId": "com.hackernews.vue",
+  "appName": "vue-hackernews-2.0",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}
