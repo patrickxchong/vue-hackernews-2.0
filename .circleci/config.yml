@@ -14,7 +14,7 @@ workflows:
 jobs:
   build_yarn:
     docker:
-      - image: circleci/node:13.5.0
+      - image: circleci/node:10-browsers
     steps:
       - checkout
       - restore_cache:
